@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+* {
+  font-family: 'Aboreto', sans-serif;
+}
+
+body {
+  background-color: white;
+  color: #444444;
+}
+
+#quote-box{
+  margin: auto;
+  margin-top: 2%;
+  padding: 10px;
+  width: 400px;
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #666666;
+}
+
+#text{
+  font-size: 25px;
+}
+
+#author{
+  margin-top: 10px;
+  position: relative;
+  text-align: center;
+}
+
+button{
+  margin-top: 10px;
+  height: 30px;
+  padding: 5px;
+  width: 115px;
+  background-color: #444444;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  position: relative;
+}
+button:hover{
+  cursor: pointer;
+}
+
+.footer{
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+  a:link {text-decoration: none;}
+}
