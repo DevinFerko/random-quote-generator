@@ -1,5 +1,6 @@
 const projectName = 'random-quote-machine';
 
+// Various 'pastel' colors to be randomized
 var colors = [
   '#4dc3ff',
   '#ffff4d',
@@ -10,7 +11,7 @@ var colors = [
   '#6666ff',
   '#00cc99'
 ];
-
+#// Array with quotes and authors
 var Quotes = [
   ["Life isn’t about getting and having, it’s about giving and being.", "Kevin Kruse"],
   ["Whatever the mind of man can conceive and believe, it can achieve.", "Napoleon Hill"],
@@ -24,6 +25,7 @@ var Quotes = [
   ["If you can dream it, you can achieve it.", "Zig Ziglar"]
 ];
 
+// Declare variables
 var currentQuote = "";
 var currentAuthor = "";
 var currentColor= '';
@@ -67,7 +69,7 @@ $(document).ready(function() {
   $('#new-quote').on('click', getQuote);
 });
 
-
-$(document).ready(function() {
-  $('#twitter').on('click', 'https://twitter.com/intent/tweet/?text=')
-});
+// Needs to be completed on a further date
+// $(document).ready(function() {
+  // $('#twitter').on('click', 'https://twitter.com/intent/tweet/?text=')
+// });
