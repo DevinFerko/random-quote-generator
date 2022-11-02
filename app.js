@@ -11,7 +11,7 @@ var colors = [
   '#6666ff',
   '#00cc99'
 ];
-#// Array with quotes and authors
+// Array with quotes and authors
 var Quotes = [
   ["Life isn’t about getting and having, it’s about giving and being.", "Kevin Kruse"],
   ["Whatever the mind of man can conceive and believe, it can achieve.", "Napoleon Hill"],
