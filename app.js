@@ -70,6 +70,6 @@ $(document).ready(function() {
 });
 
 // Needs to be completed on a further date
-// $(document).ready(function() {
-  // $('#twitter').on('click', 'https://twitter.com/intent/tweet/?text=')
-// });
+$(document).ready(function() {
+  $('#twitter').on('click', 'https://twitter.com/intent/tweet/?text=')
+});
